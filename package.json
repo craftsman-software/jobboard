@@ -29,10 +29,7 @@
     }
   },
   "lint-staged": {
-    "**/!(node_modules|.idea)/*.md": [
-      "prettier --write",
-      "markdownlint --fix"
-    ],
+    "**/!(node_modules|.idea)/*.md": "markdownlint --fix",
     "*.{js,jsx,ts,tsx,json,json5,css,scss,graphql,gql,html,vue,yaml}": "prettier --write",
     "./package.json": "pnpx sort-package-json"
   },

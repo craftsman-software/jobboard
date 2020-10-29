@@ -1,0 +1,154 @@
+{
+  "name": "jobboard",
+  "version": "0.0.0-development",
+  "private": true,
+  "description": "株式会社クラフトマンソフトウェアの採用情報",
+  "repository": "https://github.com/craftsman-software/jobboard.git",
+  "license": "UNLICENSED",
+  "author": "suin <suin@craftsman-software.com>",
+  "main": "index.js",
+  "scripts": {
+    "clean": "git clean -Xdf -e '!/.idea/**' -e '!/node_modules' -e '!/node_modules/**'",
+    "clean:dry": "git clean -Xdfn -e '!/.idea/**' -e '!/node_modules' -e '!/node_modules/**'",
+    "commitlint": "commitlint HEAD",
+    "format": "run-s prettier:fix markdownlint:fix",
+    "format:dry": "run-s commitlint prettier markdownlint",
+    "preinstall": "pnpx only-allow pnpm",
+    "markdownlint": "markdownlint '**/*.md'",
+    "markdownlint:fix": "pnpm markdownlint -- --fix",
+    "prettier": "prettier '**/*.{js,jsx,ts,tsx,json,json5,css,scss,graphql,gql,html,vue,yaml}' --check",
+    "prettier:fix": "pnpm prettier -- --write",
+    "reset": "git clean -Xdf -e '!/.idea/**'",
+    "reset:dry": "git clean -Xdfn -e '!/.idea/**'",
+    "semantic-release": "semantic-release"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "**/!(node_modules|.idea)/*.md": [
+      "prettier --write",
+      "markdownlint --fix"
+    ],
+    "*.{js,jsx,ts,tsx,json,json5,css,scss,graphql,gql,html,vue,yaml}": "prettier --write",
+    "./package.json": "pnpx sort-package-json"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "@types/node": "^14.14.6",
+    "husky": ">=4",
+    "lint-staged": "^10.4.2",
+    "markdownlint-cli": "^0.24.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": ">=2",
+    "semantic-release": "^17.2.1"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      [
+        "@semantic-release/commit-analyzer",
+        {
+          "preset": "conventionalcommits",
+          "releaseRules": [
+            {
+              "type": "open",
+              "release": "major"
+            },
+            {
+              "type": "close",
+              "release": "major"
+            },
+            {
+              "type": "fix",
+              "release": "patch"
+            },
+            {
+              "type": "update",
+              "release": "minor"
+            },
+            {
+              "type": "style",
+              "release": "patch"
+            },
+            {
+              "type": "docs",
+              "release": "minor"
+            }
+          ],
+          "parserOpts": {
+            "noteKeywords": [
+              "BREAKING CHANGE",
+              "BREAKING CHANGES"
+            ]
+          }
+        }
+      ],
+      [
+        "@semantic-release/release-notes-generator",
+        {
+          "preset": "conventionalcommits",
+          "presetConfig": {
+            "types": [
+              {
+                "type": "open",
+                "section": "募集開始",
+                "hidden": false
+              },
+              {
+                "type": "close",
+                "section": "募集終了",
+                "hidden": false
+              },
+              {
+                "type": "update",
+                "section": "更新",
+                "hidden": false
+              },
+              {
+                "type": "fix",
+                "section": "Fix",
+                "hidden": false
+              },
+              {
+                "type": "docs",
+                "section": "Documentation",
+                "hidden": false
+              }
+            ]
+          }
+        }
+      ],
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ],
+      "@semantic-release/github",
+      [
+        "@semantic-release/changelog",
+        {
+          "changelogFile": "CHANGELOG.md"
+        }
+      ],
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "package.json",
+            "CHANGELOG.md"
+          ]
+        }
+      ]
+    ]
+  }
+}

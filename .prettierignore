@@ -1,0 +1,10 @@
+#
+# IDEs & editors
+#
+/.idea
+
+#
+# Generated files
+#
+/CHANGELOG.md
+/pnpm-lock.yaml

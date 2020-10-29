@@ -1,3 +1,9 @@
 default: true
 line-length: false
 no-bare-urls: false
+ul-style:
+  style: asterisk
+heading-style:
+  style: atx
+ul-indent:
+  indent: 4

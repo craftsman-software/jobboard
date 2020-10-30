@@ -1,0 +1,26 @@
+version: 1
+imports:
+  - ./prh/kanji-open.yml
+  - ./node_modules/@azu/prh.yml/ja/spoken.yml
+  - ./node_modules/@azu/prh.yml/ja/typo.yml
+  - ./node_modules/@azu/prh.yml/css.yml
+  - ./node_modules/@azu/prh.yml/javascript.yml
+  - ./node_modules/@azu/prh.yml/other.yml
+  - ./node_modules/@azu/prh.yml/software.yml
+rules:
+  - expected: Kubernetes
+    patterns:
+      - Kuberenetes # 誤字
+      - Kubernates # 誤字
+  - expected: Elasticsearch
+    patterns:
+      - /Elastic[ ]?Search/
+    specs:
+      - from: ElasticSearch
+        to: Elasticsearch
+      - from: Elastic Search
+        to: Elasticsearch
+  - expected: ElastiCache
+    specs:
+      - from: Elasticache
+        to: ElastiCache

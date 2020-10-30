@@ -14,13 +14,15 @@
     "format": "run-s prettier:fix markdownlint:fix",
     "format:dry": "run-s commitlint prettier markdownlint",
     "preinstall": "pnpx only-allow pnpm",
-    "markdownlint": "markdownlint '**/*.md'",
+    "markdownlint": "markdownlint './*.md' './posts/**/*.md'",
     "markdownlint:fix": "pnpm markdownlint -- --fix",
     "prettier": "prettier '**/*.{js,jsx,ts,tsx,json,json5,css,scss,graphql,gql,html,vue,yaml}' --check",
     "prettier:fix": "pnpm prettier -- --write",
     "reset": "git clean -Xdf -e '!/.idea/**'",
     "reset:dry": "git clean -Xdfn -e '!/.idea/**'",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "textlint": "textlint './*.md' './posts/**/*.md'",
+    "textlint:fix": "pnpm textlint -- --fix"
   },
   "husky": {
     "hooks": {
@@ -29,22 +31,34 @@
     }
   },
   "lint-staged": {
-    "**/!(node_modules|.idea)/*.md": "markdownlint --fix",
     "*.{js,jsx,ts,tsx,json,json5,css,scss,graphql,gql,html,vue,yaml}": "prettier --write",
-    "./package.json": "pnpx sort-package-json"
+    "./*.md": "markdownlint --fix",
+    "./package.json": "pnpx sort-package-json",
+    "./posts/**/*.md": "markdownlint --fix"
   },
   "devDependencies": {
+    "@azu/prh.yml": "github:azu/prh.yml#master",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
+    "@textlint-ja/textlint-rule-no-synonyms": "^1.1.0",
     "@types/node": "^14.14.6",
     "husky": ">=4",
     "lint-staged": "^10.4.2",
     "markdownlint-cli": "^0.24.0",
     "npm-run-all": "^4.1.5",
     "prettier": ">=2",
-    "semantic-release": "^17.2.1"
+    "semantic-release": "^17.2.1",
+    "sudachi-synonyms-dictionary": "^6.0.0",
+    "textlint": "^11.7.6",
+    "textlint-filter-rule-allowlist": "^2.0.1",
+    "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-rule-abbr-within-parentheses": "^1.0.2",
+    "textlint-rule-date-weekday-mismatch": "^1.0.5",
+    "textlint-rule-preset-ja-spacing": "^2.0.2",
+    "textlint-rule-preset-ja-technical-writing": "^4.0.1",
+    "textlint-rule-prh": "^5.3.0"
   },
   "release": {
     "branches": [

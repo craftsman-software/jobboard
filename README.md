@@ -4,7 +4,8 @@
 
 ## 募集中のポスト
 
-* [Kubernetesエンジニア（業務委託1名）](./posts/kubernetes.md)
+* [Kubernetesエンジニア（1名）](./posts/kubernetes.md) - `個人事業主` `法人`
+* [AWSインフラエンジニア（1名）](./posts/aws.md) - `社員` `個人事業主` `法人`
 
 ## 株式会社クラフトマンソフトウェアについて
 

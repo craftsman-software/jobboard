@@ -24,3 +24,14 @@ rules:
     specs:
       - from: Elasticache
         to: ElastiCache
+  # 半角括弧を全角括弧に
+  - expected: （$1）
+    pattern:  /\((.+?)\)/
+    specs:
+      - from: そうですね(笑)
+        to:   そうですね（笑）
+      - from: (@<fn>{test})
+        to:   （@<fn>{test}）
+      - from: "(ほげ)ほげ)"
+        to:   "（ほげ）ほげ)"
+    prh: 半角カッコの代わりに全角カッコを使うこと。文字のバランスが崩れるためです

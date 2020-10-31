@@ -21,7 +21,7 @@
     "reset": "git clean -Xdf -e '!/.idea/**'",
     "reset:dry": "git clean -Xdfn -e '!/.idea/**'",
     "semantic-release": "semantic-release",
-    "textlint": "textlint './*.md' './posts/**/*.md'",
+    "textlint": "textlint 'README.md' 'posts/**/*.md'",
     "textlint:fix": "pnpm textlint -- --fix"
   },
   "husky": {

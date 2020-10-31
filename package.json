@@ -126,7 +126,17 @@
               },
               {
                 "type": "fix",
-                "section": "Fix",
+                "section": "その他",
+                "hidden": false
+              },
+              {
+                "type": "style",
+                "section": "その他",
+                "hidden": false
+              },
+              {
+                "type": "chore",
+                "section": "その他",
                 "hidden": false
               },
               {

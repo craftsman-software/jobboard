@@ -4,7 +4,7 @@
 
 ## 募集中のポスト
 
-* [Kubernetesエンジニア(業務委託1名)](./posts/kubernetes.md)
+* [Kubernetesエンジニア（業務委託1名）](./posts/kubernetes.md)
 
 ## 株式会社クラフトマンソフトウェアについて
 

@@ -27,7 +27,7 @@ AWSを使ったインフラをTerraformなどを使い構築、改善します�
 
 * Terraform: Terraformを用いたAWSインフラ構築経験
 * AWS: EC2, ELB, EKS, RDS, Security Groupの使用経験
-* Linux: 小規模でもWebサーバーやメールサーバーなどを構築してサービスを提供したことがある
+* Linux: 小規模でもウェブサーバーやメールサーバーなどを構築してサービスを提供したことがある
 * ネットワーク: CCNA〜CCNPレベル。Routing, Switching, CIDR, Subnetの使用経験
 * 言語: 日本語または英語が不自由なく話せる
 * 英語: 英語ドキュメントが辞書を使って不自由なく読める

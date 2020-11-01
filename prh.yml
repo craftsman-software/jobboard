@@ -24,6 +24,26 @@ rules:
     specs:
       - from: Elasticache
         to: ElastiCache
+  - expected: Architect
+    pattern:  Archtect # スペルミス
+  - expected: FOSSology
+    patterns: FOSSOLOGY
+  - expected: Nextcloud
+    patterns: NextCloud
+  - expected: Simple AD
+    patterns: SimpleAD
+  - expected: ウェブアプリケーション
+    patterns: Webアプリケーション
+  - expected: Stack Overflow
+    patterns: StackOverflow
+  - expected: Active Directory
+    patterns: ActiveDirectory
+  - expected: ユーザー
+    patterns: /ユーザ(?!ー)/
+  - expected: サーバー
+    patterns: /サーバ(?!ー)/
+  - expected: ウェブサーバー
+    patterns: Webサーバー
   # 半角括弧を全角括弧に
   - expected: （$1）
     pattern:  /\((.+?)\)/
@@ -35,3 +55,15 @@ rules:
       - from: "(ほげ)ほげ)"
         to:   "（ほげ）ほげ)"
     prh: 半角カッコの代わりに全角カッコを使うこと。文字のバランスが崩れるためです
+  # 時間の範囲を示す記号は全角「〜」
+  - expected: $1:$2〜$3:$4
+    patterns:
+      - /(\d\d?):([0-5]\d)\s*[-~]\s*(\d\d?):([0-5]\d)/
+    specs:
+      - from: 9:00-18:00
+        to: 9:00〜18:00
+      - from: 9:00~18:00
+        to: 9:00〜18:00
+      - from: 9:00 ~ 18:00
+        to: 9:00〜18:00
+    prh: 時間の範囲を示す記号は「〜」を使うこと。

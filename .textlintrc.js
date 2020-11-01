@@ -63,6 +63,16 @@ module.exports = {
         checkCode: true,
         checkImage: true,
       },
+      // 漢字が連続する最大文字数を制限する
+      "max-kanji-continuous-len": {
+        max: 6,
+        allow: [
+          "所定時間外労働",
+          "月間所定労働日数",
+          "年間所定労働日数",
+          "源泉所得税控除前",
+        ],
+      },
     },
     // 文章中の同義語を表記ゆれをチェックする(Sudachi同義語辞書を利用)
     "@textlint-ja/no-synonyms": true,

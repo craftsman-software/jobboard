@@ -24,6 +24,26 @@ rules:
     specs:
       - from: Elasticache
         to: ElastiCache
+  - expected: Architect
+    pattern:  Archtect # スペルミス
+  - expected: FOSSology
+    patterns: FOSSOLOGY
+  - expected: Nextcloud
+    patterns: NextCloud
+  - expected: Simple AD
+    patterns: SimpleAD
+  - expected: ウェブアプリケーション
+    patterns: Webアプリケーション
+  - expected: Stack Overflow
+    patterns: StackOverflow
+  - expected: Active Directory
+    patterns: ActiveDirectory
+  - expected: ユーザー
+    patterns: /ユーザ(?!ー)/
+  - expected: サーバー
+    patterns: /サーバ(?!ー)/
+  - expected: ウェブサーバー
+    patterns: Webサーバー
   # 半角括弧を全角括弧に
   - expected: （$1）
     pattern:  /\((.+?)\)/

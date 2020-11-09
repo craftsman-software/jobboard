@@ -1,3 +1,10 @@
+## [2.1.0](https://github.com/craftsman-software/jobboard/compare/v2.0.0...v2.1.0) (2020-11-09)
+
+
+### 更新
+
+* 🔀 全体的に勤務時間に幅を持たせる(80~160時間) ([58c2b40](https://github.com/craftsman-software/jobboard/commit/58c2b402de5f77eb62c2e22a32e118e1caadf7d1))
+
 ## [2.0.0](https://github.com/craftsman-software/jobboard/compare/v1.0.1...v2.0.0) (2020-11-01)
 
 

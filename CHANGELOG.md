@@ -1,3 +1,10 @@
+## [2.2.0](https://github.com/craftsman-software/jobboard/compare/v2.1.0...v2.2.0) (2020-11-20)
+
+
+### 更新
+
+* 🔀 お問い合わせ先をbosyuに変更 ([ec83147](https://github.com/craftsman-software/jobboard/commit/ec831479d4f62c3f919798252449d1c45d86d148))
+
 ## [2.1.0](https://github.com/craftsman-software/jobboard/compare/v2.0.0...v2.1.0) (2020-11-09)
 
 

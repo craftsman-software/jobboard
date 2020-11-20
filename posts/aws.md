@@ -91,11 +91,10 @@ AWSを使ったインフラをTerraformなどを使い構築、改善します�
 
 ## お問い合わせ・ご応募
 
-* Twitter: @nouphet宛にDMください。
-    * [**@nouphetにDMを送る**][TW]
-    * ↑開くとデフォルトメッセージが入ります。勝手には送信されませんのでご安心ください。
+* 下記リンクのBosyuからご連絡ください。
+    * [**AWSとかTerraformとかKubernetesとかやりたいエンジニア話そう**][BOSYU]
 
-[TW]: https://twitter.com/messages/compose?recipient_id=125696089&text=%E3%81%93%E3%81%AE%E5%8B%9F%E9%9B%86%E3%81%AB%E8%88%88%E5%91%B3%E3%81%8C%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99%E3%80%82%E8%A9%B3%E7%B4%B0%E3%82%92%E3%81%8A%E8%81%9E%E3%81%8D%E3%81%97%E3%81%9F%E3%81%84%E3%81%A7%E3%81%99%E3%80%82%0Ahttps%3A%2F%2Fgithub.com%2Fcraftsman-software%2Fjobboard%2Fblob%2Fmain%2Fposts%2Faws.md
+[BOSYU]: https://bosyu.me/b/WTf5pxgRweE
 
 ## Q&A
 

@@ -1,3 +1,10 @@
+## [2.5.0](https://github.com/craftsman-software/jobboard/compare/v2.4.1...v2.5.0) (2020-11-25)
+
+
+### 更新
+
+* 🔀 各プロジェクトで扱う技術スタックを記載する ([2dbdb94](https://github.com/craftsman-software/jobboard/commit/2dbdb94d6728cddc8ec22fa3453a62092dcd6c02))
+
 ### [2.4.1](https://github.com/craftsman-software/jobboard/compare/v2.4.0...v2.4.1) (2020-11-25)
 
 

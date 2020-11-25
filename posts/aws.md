@@ -15,6 +15,13 @@ AWSを使ったインフラをTerraformなどを使い構築、改善します�
 * Terraformを使った実際の大規模インフラ構築、運用の経験ができます。
 * 既存インフラの設計改善に携われます。
 
+## このプロジェクトで扱う技術スタック
+
+* データベース: PostgreSQL, MySQL
+* AWS: EC2, ECS, CloudWatch, RDS, Lambda
+* コンテナ: Docker
+* IaC: Terraform, AWS CDK, Ansible
+
 ## 対象となる方
 
 * 社員になりたい方

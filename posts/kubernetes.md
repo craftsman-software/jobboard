@@ -9,10 +9,18 @@
     * KubernetesのDaemonSetsで動くPodsをGo言語で開発
     * その他運用自動化ツールをGo言語で開発
 
-## アピールポイント
+## この仕事の魅力
 
 * Kubernetes Operator開発に関われます
 * これから本番運用されるKubernetes環境の構築や、Kubernetes上で動作するアプリケーションの開発に携われます
+
+## このプロジェクトで扱う技術スタック
+
+* プログラミング言語: Go
+* データベース: PostgreSQL, MySQL, etcd, Redis
+* AWS: EKS, EC2, ECS, CloudWatch, RDS, Lambda
+* コンテナ: Kubernetes, Docker
+* IaC: Terraform, AWS CDK, Ansible
 
 ## 対象となる方
 

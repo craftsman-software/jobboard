@@ -73,12 +73,11 @@
 * JIRA
 * Confluence
 
-## お問い合わせ・ご応募
+## お気軽にご連絡ください😉
 
-* 下記リンクのBosyuからご連絡ください。
-    * [**AWSとかTerraformとかKubernetesとかやりたいエンジニア話そう**][BOSYU]
+この募集について詳しい話をしたい方は、↓よりお気軽にご連絡ください。
 
-[BOSYU]: https://bosyu.me/b/WTf5pxgRweE
+[**bosyuでメッセージを送る**](https://bosyu.me/b/WTf5pxgRweE)
 
 ## Q&A
 

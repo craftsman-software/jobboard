@@ -1,3 +1,14 @@
+## [2.3.0](https://github.com/craftsman-software/jobboard/compare/v2.2.0...v2.3.0) (2020-11-25)
+
+
+### 更新
+
+* 🔀 システム保守の募集人数を4名から6名に変更 ([64a6bd9](https://github.com/craftsman-software/jobboard/commit/64a6bd91cbc7f9a2793319f3229b046679c1b1fb))
+* 🔀 勤務時間の定めを削除 ([a31936b](https://github.com/craftsman-software/jobboard/commit/a31936bb4e3fbf8da2d77717d456067ce650ab7b))
+* 🔀 待遇福利厚生セクションを削除 ([da1b962](https://github.com/craftsman-software/jobboard/commit/da1b962fe3cc974b70825a4dcf372c9ef4a645ce))
+* 🔀 応募セクションに気軽感を出す ([2ce267d](https://github.com/craftsman-software/jobboard/commit/2ce267da179f7c6c5cfbfdc18cdbb57255bc4ebe))
+* 🔀 応募時に経歴書提出を求める表現を削除 ([f8d0f28](https://github.com/craftsman-software/jobboard/commit/f8d0f28ba6f4b9c8dce92604413b829b0f3182e8))
+
 ## [2.2.0](https://github.com/craftsman-software/jobboard/compare/v2.1.0...v2.2.0) (2020-11-20)
 
 

@@ -48,6 +48,10 @@ rules:
     patterns: JIRA
   - expected: Data Center
     patterns: DataCenter
+  - expected: VS Code
+    patterns: VSCode
+  - expected: Fluent Bit
+    patterns: FluentBit
   # 半角括弧を全角括弧に
   - expected: （$1）
     pattern:  /\((.+?)\)/

@@ -18,3 +18,12 @@
 
 * Qiita Organization: https://qiita.com/organizations/craftsman_software
 * 会社ウェブサイト: http://c16e.com/
+
+## 技術スタック
+
+* ドキュメンテーション: esa.io, Confluence, Miro
+* コミュニケーション: Slack, Zoom, Teams
+* プロジェクト管理: Jira, Toggl
+* ソースコード管理: GitHub, GitLab
+* エディタ・IDE: IntelliJ IDEA, VS Code
+* インフラ系: Elasticsearch, Grafana, Kibana, Prometheus, Fluentd, Fluent Bit, Loki

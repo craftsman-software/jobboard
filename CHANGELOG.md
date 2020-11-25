@@ -1,3 +1,10 @@
+## [2.4.0](https://github.com/craftsman-software/jobboard/compare/v2.3.0...v2.4.0) (2020-11-25)
+
+
+### 更新
+
+* 🔀 報酬/給与の記述をシンプルにする ([9b03c1f](https://github.com/craftsman-software/jobboard/commit/9b03c1f2b8b3338482b812afcd65b8950bc7c421))
+
 ## [2.3.0](https://github.com/craftsman-software/jobboard/compare/v2.2.0...v2.3.0) (2020-11-25)
 
 

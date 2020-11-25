@@ -15,7 +15,7 @@ AWSで稼働しているアプリケーションが健全に動作できるよ�
 
 次のリストのどれかを担当していただきます。
 
-* JIRA, Confluence
+* Jira, Confluence
 * Gerrit, GitMirror
 * Nextcloud
 * Coverity, BDH, FOSSology
@@ -59,7 +59,7 @@ AWSで稼働しているアプリケーションが健全に動作できるよ�
 #### 歓迎条件
 
 * Ansibleを使ったことがある。
-* Confluence, JIRA, Gerritの保守運用をしたことがある。
+* Confluence, Jira, Gerritの保守運用をしたことがある。
 * Kubernetesを使ったことがある。
 * トラブルシュートのために英文ドキュメントやStack Overflowなどの情報を参照して問題を解決できる。
 * Windowsサーバーを保守したことがある
@@ -95,7 +95,7 @@ AWSで稼働しているアプリケーションが健全に動作できるよ�
 * Skype
 * esa.io
 * miro
-* JIRA
+* Jira
 * Confluence
 
 ## お気軽にご連絡ください😉

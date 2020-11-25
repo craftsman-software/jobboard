@@ -66,7 +66,7 @@
 * Skype
 * esa.io
 * miro
-* JIRA
+* Jira
 * Confluence
 
 ## お気軽にご連絡ください😉

@@ -1,3 +1,10 @@
+### [2.4.1](https://github.com/craftsman-software/jobboard/compare/v2.4.0...v2.4.1) (2020-11-25)
+
+
+### その他
+
+* 🐛 Jiraの表記を正式なものに変更 ([38c54ce](https://github.com/craftsman-software/jobboard/commit/38c54ce420099a0cc7ef5defce332d221fc44cd9))
+
 ## [2.4.0](https://github.com/craftsman-software/jobboard/compare/v2.3.0...v2.4.0) (2020-11-25)
 
 

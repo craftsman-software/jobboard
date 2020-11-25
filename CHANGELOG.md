@@ -1,3 +1,10 @@
+## [3.0.0](https://github.com/craftsman-software/jobboard/compare/v2.5.0...v3.0.0) (2020-11-25)
+
+
+### 募集開始
+
+* ✨ インフラエンジニア(2名) ([40b1f47](https://github.com/craftsman-software/jobboard/commit/40b1f477b26a9f7de58c374d9a5ce343f3acb3ce))
+
 ## [2.5.0](https://github.com/craftsman-software/jobboard/compare/v2.4.1...v2.5.0) (2020-11-25)
 
 

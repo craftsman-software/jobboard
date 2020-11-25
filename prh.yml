@@ -44,6 +44,10 @@ rules:
     patterns: /サーバ(?!ー)/
   - expected: ウェブサーバー
     patterns: Webサーバー
+  - expected: Jira
+    patterns: JIRA
+  - expected: Data Center
+    patterns: DataCenter
   # 半角括弧を全角括弧に
   - expected: （$1）
     pattern:  /\((.+?)\)/

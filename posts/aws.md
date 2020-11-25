@@ -65,7 +65,7 @@ AWSを使ったインフラをTerraformなどを使い構築、改善します�
 * Skype
 * esa.io
 * miro
-* JIRA
+* Jira
 * Confluence
 
 ## お気軽にご連絡ください😉

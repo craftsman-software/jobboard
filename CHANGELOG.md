@@ -1,3 +1,20 @@
+## [4.0.0](https://github.com/craftsman-software/jobboard/compare/v3.0.0...v4.0.0) (2021-05-26)
+
+
+### その他
+
+* 💄 Markdownをprettierで整形するようにしました。 ([0bc30ac](https://github.com/craftsman-software/jobboard/commit/0bc30acf1d4f96406ae948ee0038a3dcdb7c6657))
+
+
+### 更新
+
+* 🔀 システム保守エンジニアの募集内容が新しくなりました。 ([81ef0cf](https://github.com/craftsman-software/jobboard/commit/81ef0cfcb9313373fa04cbe7d5873a414bca4896))
+
+
+### 募集終了
+
+* 👋 Kubernetesエンジニア、AWSインフラエンジニア、インフラエンジニアの募集が終了しました。 ([c32cb45](https://github.com/craftsman-software/jobboard/commit/c32cb45fceb6d4ab837700c46606438463eb5552))
+
 ## [3.0.0](https://github.com/craftsman-software/jobboard/compare/v2.5.0...v3.0.0) (2020-11-25)
 
 

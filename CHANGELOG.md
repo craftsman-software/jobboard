@@ -1,3 +1,10 @@
+## [4.1.0](https://github.com/craftsman-software/jobboard/compare/v4.0.0...v4.1.0) (2021-05-26)
+
+
+### Documentation
+
+* ✏️ 応募方法をREADMEに記載しました。 ([2b6e80f](https://github.com/craftsman-software/jobboard/commit/2b6e80f28d64098ab10b13cc5c3cb1eef52e3186))
+
 ## [4.0.0](https://github.com/craftsman-software/jobboard/compare/v3.0.0...v4.0.0) (2021-05-26)
 
 

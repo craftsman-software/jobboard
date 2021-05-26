@@ -125,11 +125,11 @@
 
 ### その他
 
-- Git/Gitlab理解
+- Git/GitLabの理解
   - 基本的なGitコマンドが使用できる
   - コミットルールやブランチの理解
   - Mergeができて、コンフリクト解決ができる
-  - Gitlab/GithubでMR/PRの基本的なルールの理解
+  - GitLab/GitHubでMR/PRの基本的なルールの理解
 - Terraformの使用経験
 
 ## 歓迎経験とスキル

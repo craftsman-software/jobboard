@@ -56,6 +56,10 @@ rules:
     patterns: BlackDuck
   - expected: Golang
     patterns: golang
+  - expected: GitLab
+    patterns: Gitlab
+  - expected: GitHub
+    patterns: Github
   # 半角括弧を全角括弧に
   - expected: （$1）
     pattern:  /\((.+?)\)/

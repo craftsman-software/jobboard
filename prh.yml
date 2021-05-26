@@ -52,6 +52,10 @@ rules:
     patterns: VSCode
   - expected: Fluent Bit
     patterns: FluentBit
+  - expected: Black Duck
+    patterns: BlackDuck
+  - expected: Golang
+    patterns: golang
   # 半角括弧を全角括弧に
   - expected: （$1）
     pattern:  /\((.+?)\)/

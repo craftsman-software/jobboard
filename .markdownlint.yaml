@@ -2,8 +2,8 @@ default: true
 line-length: false
 no-bare-urls: false
 ul-style:
-  style: asterisk
+  style: dash
 heading-style:
   style: atx
 ul-indent:
-  indent: 4
+  indent: 2

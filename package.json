@@ -16,7 +16,7 @@
     "preinstall": "pnpx only-allow pnpm",
     "markdownlint": "markdownlint './*.md' './posts/**/*.md'",
     "markdownlint:fix": "pnpm markdownlint -- --fix",
-    "prettier": "prettier '**/*.{js,jsx,ts,tsx,json,json5,css,scss,graphql,gql,html,vue,yaml}' --check",
+    "prettier": "prettier '**/*.{js,jsx,ts,tsx,json,json5,css,scss,graphql,gql,html,vue,yaml,md}' --check",
     "prettier:fix": "pnpm prettier -- --write",
     "reset": "git clean -Xdf -e '!/.idea/**'",
     "reset:dry": "git clean -Xdfn -e '!/.idea/**'",
@@ -31,7 +31,7 @@
     }
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,json,json5,css,scss,graphql,gql,html,vue,yaml}": "prettier --write",
+    "*.{js,jsx,ts,tsx,json,json5,css,scss,graphql,gql,html,vue,yaml,md}": "prettier --write",
     "./*.md": "markdownlint --fix",
     "./package.json": "pnpx sort-package-json",
     "./posts/**/*.md": "markdownlint --fix"
@@ -49,6 +49,7 @@
     "markdownlint-cli": "^0.24.0",
     "npm-run-all": "^4.1.5",
     "prettier": ">=2",
+    "prettier-plugin-md-nocjsp": "1.0.2",
     "semantic-release": "^17.2.1",
     "sudachi-synonyms-dictionary": "^6.0.0",
     "textlint": "^11.7.6",

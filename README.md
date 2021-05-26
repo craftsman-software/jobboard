@@ -4,10 +4,10 @@
 
 ## 募集中のポスト
 
-* [Kubernetesエンジニア（1名）](./posts/kubernetes.md) - `個人事業主` `法人`
-* [AWSインフラエンジニア（1名）](./posts/aws.md) - `社員` `個人事業主` `法人`
-* [システム保守（6名）](./posts/system-maintainer.md) - `社員` `個人事業主` `法人`
-* [インフラエンジニア（2名）](./posts/infrastructure-developer.md) - `個人事業主` `法人`
+- [Kubernetesエンジニア（1名）](./posts/kubernetes.md) - `個人事業主` `法人`
+- [AWSインフラエンジニア（1名）](./posts/aws.md) - `社員` `個人事業主` `法人`
+- [システム保守（6名）](./posts/system-maintainer.md) - `社員` `個人事業主` `法人`
+- [インフラエンジニア（2名）](./posts/infrastructure-developer.md) - `個人事業主` `法人`
 
 ## 株式会社クラフトマンソフトウェアについて
 
@@ -17,14 +17,14 @@
 
 現在は、インフラ運用を自動化し、退屈な手作業を限りなくゼロにすることにフォーカスして事業を進めています。
 
-* Qiita Organization: https://qiita.com/organizations/craftsman_software
-* 会社ウェブサイト: http://c16e.com/
+- Qiita Organization: https://qiita.com/organizations/craftsman_software
+- 会社ウェブサイト: http://c16e.com/
 
 ## 技術スタック
 
-* ドキュメンテーション: esa.io, Confluence, Miro
-* コミュニケーション: Slack, Zoom, Teams
-* プロジェクト管理: Jira, Toggl
-* ソースコード管理: GitHub, GitLab
-* エディタ・IDE: IntelliJ IDEA, VS Code
-* インフラ系: Elasticsearch, Grafana, Kibana, Prometheus, Fluentd, Fluent Bit, Loki
+- ドキュメンテーション: esa.io, Confluence, Miro
+- コミュニケーション: Slack, Zoom, Teams
+- プロジェクト管理: Jira, Toggl
+- ソースコード管理: GitHub, GitLab
+- エディタ・IDE: IntelliJ IDEA, VS Code
+- インフラ系: Elasticsearch, Grafana, Kibana, Prometheus, Fluentd, Fluent Bit, Loki

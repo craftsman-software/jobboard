@@ -1,5 +1,5 @@
 devDependencies:
-  '@azu/prh.yml': github.com/azu/prh.yml/f6fe267b64b4a2e6a812caca4f8e8b82576b63a6
+  '@azu/prh.yml': github.com/azu/prh.yml/87abdc5c6ee984a615ccf33305c6d4b19b795678
   '@commitlint/cli': 11.0.0
   '@commitlint/config-conventional': 11.0.0
   '@semantic-release/changelog': 5.0.1_semantic-release@17.2.1
@@ -11,6 +11,7 @@ devDependencies:
   markdownlint-cli: 0.24.0
   npm-run-all: 4.1.5
   prettier: 2.1.2
+  prettier-plugin-md-nocjsp: 1.0.2
   semantic-release: 17.2.1
   sudachi-synonyms-dictionary: 6.0.0
   textlint: 11.7.6
@@ -3429,6 +3430,10 @@ packages:
       node: '>= 0.8.0'
     resolution:
       integrity: sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
+  /prettier-plugin-md-nocjsp/1.0.2:
+    dev: true
+    resolution:
+      integrity: sha512-YeWPS+tbDVnCo67+IEYWum1gc0XmTnbChKH2ZNbQ2WurCPvx1kPkBbUpInzru5RXYmPk3Xq1SU1g4moPBSdacg==
   /prettier/2.1.2:
     dev: true
     engines:
@@ -5073,14 +5078,14 @@ packages:
     dev: true
     resolution:
       integrity: sha1-riDwYkMpPYXCVVYxifmxL1s7oaA=
-  github.com/azu/prh.yml/f6fe267b64b4a2e6a812caca4f8e8b82576b63a6:
+  github.com/azu/prh.yml/87abdc5c6ee984a615ccf33305c6d4b19b795678:
     dev: true
     name: '@azu/prh.yml'
     resolution:
-      tarball: 'https://codeload.github.com/azu/prh.yml/tar.gz/f6fe267b64b4a2e6a812caca4f8e8b82576b63a6'
+      tarball: https://codeload.github.com/azu/prh.yml/tar.gz/87abdc5c6ee984a615ccf33305c6d4b19b795678
     version: 2.1.2
 specifiers:
-  '@azu/prh.yml': 'github:azu/prh.yml#master'
+  '@azu/prh.yml': github:azu/prh.yml#master
   '@commitlint/cli': ^11.0.0
   '@commitlint/config-conventional': ^11.0.0
   '@semantic-release/changelog': ^5.0.1
@@ -5092,6 +5097,7 @@ specifiers:
   markdownlint-cli: ^0.24.0
   npm-run-all: ^4.1.5
   prettier: '>=2'
+  prettier-plugin-md-nocjsp: 1.0.2
   semantic-release: ^17.2.1
   sudachi-synonyms-dictionary: ^6.0.0
   textlint: ^11.7.6

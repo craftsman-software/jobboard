@@ -8,7 +8,7 @@
 
 ## 応募する
 
-募集への応募は下記のフォームからお願いします！
+募集への応募は次のフォームからお願いします！
 
 https://docs.google.com/forms/d/e/1FAIpQLScpQPiOj5SJSoeqH31bYtsNC4wv76mrlA_9HhhHFG50ZUE4Vw/viewform?usp=sf_link
 

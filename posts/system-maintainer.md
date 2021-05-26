@@ -150,3 +150,7 @@
 ### コラボレーションツール
 
 Slack/Zoom/Microsoft Teams/Discord/esa.io/miro/Jira/Confluence
+
+## 応募する
+
+この募集への応募方法は[こちら](https://github.com/craftsman-software/jobboard#%E5%BF%9C%E5%8B%9F%E3%81%99%E3%82%8B)をご覧ください。

@@ -1,3 +1,16 @@
+## [4.2.0](https://github.com/craftsman-software/jobboard/compare/v4.1.0...v4.2.0) (2021-05-26)
+
+
+### Documentation
+
+* ✏️ 応募方法を各募集に記載しました。 ([2b0c50c](https://github.com/craftsman-software/jobboard/commit/2b0c50c18fde3c554787330535a09f3752119a04))
+
+
+### その他
+
+* 🐛 GitHub、GitLabの表記を修正しました。 ([5f14a67](https://github.com/craftsman-software/jobboard/commit/5f14a670a6965c3aa4d46669940fb8988d08e6fe))
+* 🐛 textlint ([4fe03cf](https://github.com/craftsman-software/jobboard/commit/4fe03cf49873fa71192e60c293f0029337da9842))
+
 ## [4.1.0](https://github.com/craftsman-software/jobboard/compare/v4.0.0...v4.1.0) (2021-05-26)
 
 

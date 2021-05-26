@@ -6,6 +6,12 @@
 
 - [システム保守](./posts/system-maintainer.md) - `社員` `個人事業主` `法人`
 
+## 応募する
+
+募集への応募は下記のフォームからお願いします！
+
+https://docs.google.com/forms/d/e/1FAIpQLScpQPiOj5SJSoeqH31bYtsNC4wv76mrlA_9HhhHFG50ZUE4Vw/viewform?usp=sf_link
+
 ## 株式会社クラフトマンソフトウェアについて
 
 「エンジニアの仕事を最高に幸せにする」

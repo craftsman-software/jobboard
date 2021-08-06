@@ -1,3 +1,10 @@
+## [4.3.0](https://github.com/craftsman-software/jobboard/compare/v4.2.0...v4.3.0) (2021-08-06)
+
+
+### Documentation
+
+* ✏️ 募集要項の変更方法を書きました。 ([1c3d559](https://github.com/craftsman-software/jobboard/commit/1c3d559316f6cd8bd564c3739b239964e5db7b7b))
+
 ## [4.2.0](https://github.com/craftsman-software/jobboard/compare/v4.1.0...v4.2.0) (2021-05-26)
 
 

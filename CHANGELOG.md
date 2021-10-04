@@ -1,3 +1,10 @@
+## [4.4.0](https://github.com/craftsman-software/jobboard/compare/v4.3.0...v4.4.0) (2021-10-04)
+
+
+### 更新
+
+* added on-call rotation when we've got alert ([58256a4](https://github.com/craftsman-software/jobboard/commit/58256a4b797fa1fbc88cf19c2a0f1fbf72ded9f2))
+
 ## [4.3.0](https://github.com/craftsman-software/jobboard/compare/v4.2.0...v4.3.0) (2021-08-06)
 
 

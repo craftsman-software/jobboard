@@ -1,6 +1,6 @@
 {
   "name": "jobboard",
-  "version": "4.5.0",
+  "version": "5.0.0",
   "private": true,
   "description": "株式会社クラフトマンソフトウェアの採用情報",
   "repository": "https://github.com/craftsman-software/jobboard.git",

@@ -1,3 +1,10 @@
+## [5.0.0](https://github.com/craftsman-software/jobboard/compare/v4.5.0...v5.0.0) (2021-10-27)
+
+
+### 募集開始
+
+* ✨ 新しい募集を追加しました。 ([aa16015](https://github.com/craftsman-software/jobboard/commit/aa16015d2e7efce6776cf1f1971f02f73fc5da4d))
+
 ## [4.5.0](https://github.com/craftsman-software/jobboard/compare/v4.4.0...v4.5.0) (2021-10-27)
 
 

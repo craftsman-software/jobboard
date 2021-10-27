@@ -4,7 +4,13 @@
 
 ## 募集中のポスト
 
-- [システム保守](./posts/system-maintainer.md) - `社員` `個人事業主` `法人`
+外部サイトに遷移します。
+
+- [システム保守](https://esa-pages.io/p/sharing/16718/posts/240/1ccd8006feb0a8349ed1.html) - `社員` `個人事業主` `法人`
+- [Kubernetesエンジニア](https://esa-pages.io/p/sharing/16718/posts/237/8b84c05932deacdf4157.html) - `社員` `個人事業主` `法人`
+- [シニアインフラエンジニア](https://esa-pages.io/p/sharing/16718/posts/238/8e211138b00bea1e4f88.html) - `社員` `個人事業主` `法人`
+- [AndroidOSビルドエンジニア（有識者）](https://esa-pages.io/p/sharing/16718/posts/239/4a95665decf7581ed675.html) - `社員` `個人事業主` `法人`
+- [AndroidOSビルドエンジニア（チャレンジ）](https://esa-pages.io/p/sharing/16718/posts/250/23119c0988d5bb96badc.html) - `社員` `個人事業主` `法人`
 
 ## 応募する
 

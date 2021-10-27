@@ -1,3 +1,10 @@
+## [4.5.0](https://github.com/craftsman-software/jobboard/compare/v4.4.0...v4.5.0) (2021-10-27)
+
+
+### 更新
+
+* 🔀 採用に関する会社情報を更新しました。 ([19191ed](https://github.com/craftsman-software/jobboard/commit/19191ed40a2c9e3676f5d89219d78745acde215d))
+
 ## [4.4.0](https://github.com/craftsman-software/jobboard/compare/v4.3.0...v4.4.0) (2021-10-04)
 
 

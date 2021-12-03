@@ -2,32 +2,33 @@
 
 このリポジトリでは、株式会社クラフトマンソフトウェアが募集しているポストや発注したいお仕事の情報を掲載しています。
 
-## 募集中のポスト
+▼ 弊社の採用特設ページもぜひ御覧ください ▼
 
-外部サイトに遷移します。
+https://craftsman-software.com/recruit/
 
-- [システム保守](https://esa-pages.io/p/sharing/16718/posts/240/1ccd8006feb0a8349ed1.html) - `社員` `個人事業主` `法人`
-- [Kubernetesエンジニア](https://esa-pages.io/p/sharing/16718/posts/237/8b84c05932deacdf4157.html) - `社員` `個人事業主` `法人`
-- [シニアインフラエンジニア](https://esa-pages.io/p/sharing/16718/posts/238/8e211138b00bea1e4f88.html) - `社員` `個人事業主` `法人`
-- [AndroidOSビルドエンジニア（有識者）](https://esa-pages.io/p/sharing/16718/posts/239/4a95665decf7581ed675.html) - `社員` `個人事業主` `法人`
-- [AndroidOSビルドエンジニア（チャレンジ）](https://esa-pages.io/p/sharing/16718/posts/250/23119c0988d5bb96badc.html) - `社員` `個人事業主` `法人`
 
-## 応募する
+## 募集中の職種と応募方法
 
-募集への応募は次のフォームからお願いします！
+[募集職種一覧](https://herp.careers/v1/c16e)から希望の職種を選択し、「応募する」ボタンからご応募ください。
 
-https://docs.google.com/forms/d/e/1FAIpQLScpQPiOj5SJSoeqH31bYtsNC4wv76mrlA_9HhhHFG50ZUE4Vw/viewform?usp=sf_link
+
 
 ## 選考フロー
 
-- 応募フォームよりエントリー
-- 弊社担当者からご連絡
-- カジュアル面談（希望者のみ）
-- 採用書類の提出
-- 書類選考
-- 採用担当面談
-- リーダー面談
-- 採用合否連絡
+STEP 1 ご応募
+募集職種一覧から希望の職種を選択し、「応募する」ボタンからご応募ください。
+
+STEP 2 カジュアル面談（希望者のみ）
+書類提出は不要です。応募フォームにてカジュアル面談希望の旨をご入力ください。
+
+STEP 3 書類選考
+いただいた書類を拝見し、選考をさせていただきます。
+
+STEP 4 採用面談
+2〜3回の面談をオンラインで実施いたします。
+
+STEP 5 合否連絡
+応募から合否連絡までは2週間ほどかかります。ご了承ください。
 
 ## 株式会社クラフトマンソフトウェアについて
 
